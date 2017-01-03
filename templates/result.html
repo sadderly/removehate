@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+   <body>
+      {% for status in result['statuses'] %}
+         {{ status['text'] }}
+         <p>
+      {% endfor %}
+   </body>
+</html>
